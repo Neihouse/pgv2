@@ -52,5 +52,13 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "experimentalDecorators": true
+  },
+  "deploy": {
+    "project": "813fd868-883f-4f0d-ad04-60f76cbcaf8a",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
   }
 }
