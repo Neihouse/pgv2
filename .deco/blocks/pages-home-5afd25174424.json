@@ -1,42 +1,88 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<h1>Primordial Groove</h1><p></p><p><span style=\"font-size: 37pt\">Where Art Meets Community</span></p><p></p>",
+      "cta": [
+        {
+          "id": "collaborate-now",
+          "href": "/collaborate",
+          "text": "Collaborate Now"
+        },
+        {
+          "id": "showcase-your-talent",
+          "href": "/showcase",
+          "text": "Showcase Your Talent"
+        }
+      ],
+      "description": "Are you an artist, band, or DJ looking for a dynamic space to showcase your talent? At Primordial Groove, we provide the perfect environment to connect, collaborate, and grow. Be a part of the collective that brings your vision, community, and opportunity to life. Fill out the form and start your journey with us today."
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "heading": "Artists and Bands We've Supported",
+      "description": "Here are some of the talented artists and bands that have graced the stage at Primordial Groove, showcasing their incredible talents and growing with our community."
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "description": "Turn Your Artistic Vision into Reality. Perform with state-of-the-art sound and lighting systems that bring your artistic vision to life.",
+      "title": "Vision",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11843/82249be2-c969-4db7-a56e-296be3c5cad7",
+      "placement": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "title": "Community",
+      "description": "A Shared Space to Connect, Collaborate, and Grow. Engage with a diverse and inclusive group of artists and creatives. A shared place to connect, collaborate, and build meaningful relationships that encourage growth.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11843/f54f1620-59eb-4dab-a708-d322b119d443"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Opportunity",
+      "description": "Endless Opportunities to Grow and Shine. Work alongside other talented individuals and organizations to grow and experiment with your music.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11843/efd8adc8-576f-441c-b47c-a99615ecc78e",
+      "placement": "left"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "description": "Find answers to common questions about Primordial Groove and our events at Gratitude Lounge. Learn how to book a performance, get involved with our community, and what facilities and equipment are available.",
+      "faqs": [
+        {
+          "question": "What is Primordial Groove?",
+          "answer": "Primordial Groove is a collective dedicated to empowering local talent by providing a dynamic space for artists, bands, and DJs to connect, collaborate, and grow. We book out dates at Gratitude Lounge to host our events and performances."
+        },
+        {
+          "question": "How can I book a performance at Primordial Groove?",
+          "answer": "To book a performance with Primordial Groove at Gratitude Lounge, visit our 'Showcase Your Talent' page and fill out the booking form. Our team will review your application and get back to you with the next steps."
+        },
+        {
+          "question": "What kind of events does Primordial Groove host?",
+          "answer": "Primordial Groove hosts a variety of events at Gratitude Lounge, including open mic nights, workshops, networking events, and more. Each event is designed to help artists connect, collaborate, and grow."
+        },
+        {
+          "question": "How can I get involved with the Primordial Groove community?",
+          "answer": "You can get involved by attending our events at Gratitude Lounge, joining our forums, and collaborating with other artists. Visit our 'Community' page for more details."
+        },
+        {
+          "question": "What facilities and equipment are available at Gratitude Lounge?",
+          "answer": "Gratitude Lounge is equipped with state-of-the-art sound and lighting systems, including Void Airten-V3, Void Air Motion, and Chauvet DJ Intimidator Moving Head Lights, ensuring top-notch performance quality for all Primordial Groove events."
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
