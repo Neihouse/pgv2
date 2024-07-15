@@ -59,21 +59,9 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
-  "/.deco/blocks/blog.json": {
-    "blockType": "apps",
-    "__resolveType": "decohub/apps/blog.ts"
-  },
-  "/.deco/blocks/decohub.json": {
-    "blockType": "apps",
-    "__resolveType": "site/apps/decohub.ts"
-  },
   "/.deco/blocks/hero.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Hero.tsx"
-  },
-  "/.deco/blocks/htmx.json": {
-    "blockType": "apps",
-    "__resolveType": "decohub/apps/htmx.ts"
   },
   "/.deco/blocks/pages-home-5afd25174424.json": {
     "name": "Home",
@@ -104,5 +92,33 @@
   "/.deco/blocks/Vanilla.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/deco-analytics.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/analytics.ts"
+  },
+  "/.deco/blocks/deco-htmx.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/htmx.ts"
+  },
+  "/.deco/blocks/deco-blog.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/blog.ts"
+  },
+  "/.deco/blocks/deco-records.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/records.ts"
+  },
+  "/.deco/blocks/deco-ai-assistants.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/ai-assistants.ts"
+  },
+  "/.deco/blocks/deco-workflows.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/workflows.ts"
+  },
+  "/.deco/blocks/deco-weather.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/weather.ts"
   }
 }
